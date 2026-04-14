@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ydi-royal-green: #025e2d;
+  --color-ydi-gold: #dcb640;
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Manrope", sans-serif;
+}
+
+.glass-card {
+  background: rgba(1, 69, 33, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.neon-glow-primary {
+  box-shadow: 0 0 20px rgba(220, 182, 64, 0.4);
+}
+
+.text-gradient-primary {
+  background: linear-gradient(45deg, #dcb640, #f6e05e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(45deg, #dcb640, #f6e05e);
+}
+
+.light-trail {
+  position: absolute;
+  filter: blur(100px);
+  opacity: 0.15;
+  pointer-events: none;
+}
+.technical-label {
+  letter-spacing: 0.15em;
+  font-size: 0.65rem;
+}
+.ydi-trail-gold {
+  background: linear-gradient(90deg, transparent, #dcb640, transparent);
+  filter: blur(8px);
+}
+.text-gradient-gold {
+  background: linear-gradient(45deg, #dcb640, #f7d671);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.glass-panel {
+  background: rgba(1, 77, 37, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(220, 182, 64, 0.15);
+}
+
+.neon-glow-secondary {
+  box-shadow: 0 0 20px rgba(220, 182, 64, 0.3);
+}
