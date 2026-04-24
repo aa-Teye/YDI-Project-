@@ -2,7 +2,7 @@ name: Deploy React to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "frontend"]
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
           path: ./frontend/dist
 
   deploy:
-    environment:
+    environment
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
