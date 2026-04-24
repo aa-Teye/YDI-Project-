@@ -11,7 +11,8 @@ import PromoModal from "./components/PromoModal";
 
 function App() {
   return (
-    <Router>
+    /* Add the basename here so React knows the home is inside your project folder */
+    <Router basename="/YDI-Project-/"> 
       <div className="flex flex-col min-h-screen font-body bg-ydi-green text-white selection:bg-ydi-gold/30">
         <Navbar />
         <PromoModal />
@@ -24,7 +25,6 @@ function App() {
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </main>
-
         <Footer />
       </div>
     </Router>
