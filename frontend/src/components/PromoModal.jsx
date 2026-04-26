@@ -30,7 +30,7 @@ export default function PromoModal() {
         <div className="relative w-full md:w-5/12 h-56 sm:h-64 md:h-auto shrink-0 overflow-hidden">
           <img
             alt="Promotion"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover object-top"
             src={PromoImage}
           />
           <div className="absolute top-4 left-4 md:top-6 md:left-6 z-10 flex items-center gap-2 px-3 py-1.5 bg-ydi-royal-green/90 backdrop-blur-md border border-ydi-royal-green/20 rounded-full shadow-lg">
